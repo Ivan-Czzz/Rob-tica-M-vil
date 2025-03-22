@@ -14,13 +14,29 @@
     </div>
 </div>
 
-<!-- Mission Statement Section -->
+<!-- Mission and Vision Section -->
 <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl lg:text-center">
-            <h2 class="text-base font-semibold leading-7 text-blue-900">Nuestra Misión</h2>
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Excelencia en Investigación y Desarrollo</p>
-            <p class="mt-6 text-lg leading-8 text-gray-600">Nos dedicamos a la investigación avanzada en robótica móvil, formando la próxima generación de expertos y desarrollando soluciones tecnológicas que transforman la industria.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Mission Statement -->
+            <div class="bg-blue-100 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300">
+                <div class="mx-auto max-w-2xl lg:text-center">
+                    <h2 class="text-base font-semibold leading-7 text-blue-900">Nuestra Misión</h2>
+                    <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Excelencia en Investigación y Desarrollo</p>
+                    <div class="w-16 h-1 bg-blue-600 mx-auto my-4"></div>
+                    <p class="mt-6 text-lg leading-8 text-gray-700">Nos dedicamos a la investigación avanzada en robótica móvil, formando la próxima generación de expertos y desarrollando soluciones tecnológicas que transforman la industria.</p>
+                </div>
+            </div>
+
+            <!-- Vision Statement -->
+            <div class="bg-blue-800 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300">
+                <div class="mx-auto max-w-2xl lg:text-center">
+                    <h2 class="text-base font-semibold leading-7 text-blue-100">Nuestra Visión</h2>
+                    <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Liderando el Futuro de la Robótica</p>
+                    <div class="w-16 h-1 bg-blue-200 mx-auto my-4"></div>
+                    <p class="mt-6 text-lg leading-8 text-gray-200">Aspiramos a ser un referente mundial en innovación robótica, impulsando avances tecnológicos que transformen la sociedad y mejoren la vida de las personas a través de soluciones robóticas inteligentes y sostenibles.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
