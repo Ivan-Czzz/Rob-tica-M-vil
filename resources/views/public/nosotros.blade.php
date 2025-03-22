@@ -146,4 +146,89 @@
         </div>
     </div>
 </div>
+
+<!-- Photo Gallery Section -->
+<div class="bg-gray-50 py-24 sm:py-12">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:text-center mb-16">
+            <h2 class="text-base font-semibold leading-7 text-blue-600">Galería de Fotos</h2>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Nuestro Trabajo en Acción</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">Explora nuestra colección de imágenes que muestran nuestros proyectos, investigaciones y logros.</p>
+        </div>
+
+        <div class="relative overflow-hidden">
+            <!-- Carousel Container -->
+            <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
+                <!-- Image 1 -->
+                <div class="w-1/3 flex-none px-2">
+                    <div class="aspect-[4/3] overflow-hidden rounded-xl bg-gray-100">
+                        <img src="/image/ai-generated-8124241_1280.jpg" alt="Imagen 1" class="h-full w-full object-cover">
+                    </div>
+                </div>
+                <!-- Image 2 -->
+                <div class="w-1/3 flex-none px-2">
+                    <div class="aspect-[4/3] overflow-hidden rounded-xl bg-gray-100">
+                        <img src="/image/ai-generated-8124241_1280.jpg" alt="Imagen 2" class="h-full w-full object-cover">
+                    </div>
+                </div>
+                <!-- Image 3 -->
+                <div class="w-1/3 flex-none px-2">
+                    <div class="aspect-[4/3] overflow-hidden rounded-xl bg-gray-100">
+                        <img src="/image/ai-generated-8124241_1280.jpg" alt="Imagen 3" class="h-full w-full object-cover">
+                    </div>
+                </div>
+                <!-- Image 4 -->
+                <div class="w-1/3 flex-none px-2">
+                    <div class="aspect-[4/3] overflow-hidden rounded-xl bg-gray-100">
+                        <img src="/image/ai-generated-8124241_1280.jpg" alt="Imagen 4" class="h-full w-full object-cover">
+                    </div>
+                </div>
+                <!-- Image 5 -->
+                <div class="w-1/3 flex-none px-2">
+                    <div class="aspect-[4/3] overflow-hidden rounded-xl bg-gray-100">
+                        <img src="/image/ai-generated-8124241_1280.jpg" alt="Imagen 5" class="h-full w-full object-cover">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 bg-white/80 p-3 rounded-r-lg shadow-md hover:bg-white transition-colors duration-300">
+                <i class="fas fa-chevron-left text-blue-600 text-xl"></i>
+            </button>
+            <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 bg-white/80 p-3 rounded-l-lg shadow-md hover:bg-white transition-colors duration-300">
+                <i class="fas fa-chevron-right text-blue-600 text-xl"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const carousel = document.getElementById('carousel');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let currentIndex = 0;
+    const totalImages = carousel.children.length;
+    const visibleImages = 3;
+    const slideWidth = 100 / visibleImages;
+
+    function updateCarousel() {
+        carousel.style.transform = `translateX(-${currentIndex * slideWidth}%)`;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+        }
+    });
+
+    nextBtn.addEventListener('click', () => {
+        if (currentIndex < totalImages - visibleImages) {
+            currentIndex++;
+            updateCarousel();
+        }
+    });
+});
+</script>
 @endsection
