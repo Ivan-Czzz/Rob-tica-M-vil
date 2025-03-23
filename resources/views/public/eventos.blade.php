@@ -26,28 +26,110 @@
         <!-- Event Cards Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Event Card 1 -->
-            <div class="bg-white shadow-lg rounded-lg p-6 border border-gray-200 hover:border-blue-500 transition-colors duration-300">
-                <div class="mb-4 text-blue-600"><i class="fas fa-calendar-alt text-xl"></i></div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-2">Nombre_Evento 2025</h3>
-                <p class="text-gray-600 mb-4">Descripción</p>
-                <div class="flex items-center text-sm text-gray-500 mb-2">
-                    <i class="fas fa-clock mr-2"></i> dia/mes/año
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200 hover:border-blue-500 transition-all duration-300 hover:shadow-xl">
+                <div class="relative">
+                    <div class="absolute top-0 right-0 bg-blue-600 text-white px-4 py-2 rounded-bl-lg">
+                        <div class="text-sm font-bold">ENE</div>
+                        <div class="text-xl font-bold">15</div>
+                    </div>
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i class="fas fa-robot text-6xl text-gray-400"></i>
+                    </div>
                 </div>
-                <div class="flex items-center text-sm text-gray-500">
-                    <i class="fas fa-map-marker-alt mr-2"></i> Estado/Pais
+                <div class="p-6">
+                    <div class="flex items-center mb-2">
+                        <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded">Conferencia</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Simposio Internacional de Robótica 2024</h3>
+                    <p class="text-gray-600 mb-4">Únete a expertos internacionales en una jornada de conferencias sobre los últimos avances en robótica móvil.</p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-clock mr-2 text-blue-600"></i> 09:00 AM - 06:00 PM
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-map-marker-alt mr-2 text-blue-600"></i> Centro de Convenciones, CDMX
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-users mr-2 text-blue-600"></i> Cupo limitado
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800">
+                            Más información <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
             <!-- Event Card 2 -->
-            <div class="bg-white shadow-lg rounded-lg p-6 border border-gray-200 hover:border-blue-500 transition-colors duration-300">
-                <div class="mb-4 text-blue-600"><i class="fas fa-robot text-xl"></i></div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-2">Nombre_Evento 2025</h3>
-                <p class="text-gray-600 mb-4">Descripción</p>
-                <div class="flex items-center text-sm text-gray-500 mb-2">
-                    <i class="fas fa-clock mr-2"></i> dia/mes/año
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200 hover:border-blue-500 transition-all duration-300 hover:shadow-xl">
+                <div class="relative">
+                    <div class="absolute top-0 right-0 bg-blue-600 text-white px-4 py-2 rounded-bl-lg">
+                        <div class="text-sm font-bold">MAR</div>
+                        <div class="text-xl font-bold">20</div>
+                    </div>
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i class="fas fa-cogs text-6xl text-gray-400"></i>
+                    </div>
                 </div>
-                <div class="flex items-center text-sm text-gray-500">
-                    <i class="fas fa-map-marker-alt mr-2"></i> Estado/Pais
+                <div class="p-6">
+                    <div class="flex items-center mb-2">
+                        <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded">Taller</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Taller de Programación de Robots</h3>
+                    <p class="text-gray-600 mb-4">Aprende las bases de la programación de robots móviles en este taller práctico con expertos del campo.</p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-clock mr-2 text-blue-600"></i> 10:00 AM - 02:00 PM
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-map-marker-alt mr-2 text-blue-600"></i> Laboratorio de Robótica
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-users mr-2 text-blue-600"></i> 20 participantes máximo
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800">
+                            Más información <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event Card 3 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200 hover:border-blue-500 transition-all duration-300 hover:shadow-xl">
+                <div class="relative">
+                    <div class="absolute top-0 right-0 bg-blue-600 text-white px-4 py-2 rounded-bl-lg">
+                        <div class="text-sm font-bold">ABR</div>
+                        <div class="text-xl font-bold">05</div>
+                    </div>
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i class="fas fa-laptop-code text-6xl text-gray-400"></i>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center mb-2">
+                        <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded">Hackathon</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Hackathon de Robótica 2024</h3>
+                    <p class="text-gray-600 mb-4">Compite en equipos para desarrollar soluciones innovadoras en robótica móvil durante 48 horas intensivas.</p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-clock mr-2 text-blue-600"></i> 48 horas continuas
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-map-marker-alt mr-2 text-blue-600"></i> Campus Principal
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-users mr-2 text-blue-600"></i> 15 equipos máximo
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800">
+                            Más información <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,21 +149,51 @@
             <!-- Event 1 -->
             <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-blue-600 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-blue-500">
                 <div class="flex justify-between items-start mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">Nombre_Evento</h3>
-                    <span class="text-sm text-blue-600 font-medium">mes/año</span>
+                    <div>
+                        <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded mb-2 inline-block">Conferencia</span>
+                        <h3 class="text-xl font-semibold text-gray-900">Congreso Nacional de Robótica 2023</h3>
+                    </div>
+                    <span class="text-sm text-blue-600 font-medium">Nov 2023</span>
                 </div>
-                <p class="text-gray-600 mb-2">Descripción</p>
-                <div class="text-sm text-gray-500">Estado/Pais</div>
+                <p class="text-gray-600 mb-4">Reunión anual de investigadores y profesionales en el campo de la robótica, presentando los últimos avances y desarrollos en robótica móvil.</p>
+                <div class="space-y-2">
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-map-marker-alt mr-2 text-blue-600"></i> Universidad Nacional Autónoma de México
+                    </div>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-users mr-2 text-blue-600"></i> 200+ asistentes
+                    </div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800">
+                        Más información <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
             </div>
 
             <!-- Event 2 -->
             <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-blue-600 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-blue-500">
                 <div class="flex justify-between items-start mb-4">
-                    <h3 class="text-xl font-semibold text-gray-900">Nombre_Evento</h3>
-                    <span class="text-sm text-blue-600 font-medium">mes/año</span>
+                    <div>
+                        <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded mb-2 inline-block">Workshop</span>
+                        <h3 class="text-xl font-semibold text-gray-900">Workshop de Inteligencia Artificial en Robótica</h3>
+                    </div>
+                    <span class="text-sm text-blue-600 font-medium">Sep 2023</span>
                 </div>
-                <p class="text-gray-600 mb-2">Descripción</p>
-                <div class="text-sm text-gray-500">Estado/Pais</div>
+                <p class="text-gray-600 mb-4">Sesión práctica sobre la implementación de algoritmos de IA en sistemas robóticos, con demostraciones en vivo y casos de estudio.</p>
+                <div class="space-y-2">
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-map-marker-alt mr-2 text-blue-600"></i> Instituto Tecnológico de Monterrey
+                    </div>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-users mr-2 text-blue-600"></i> 50 participantes
+                    </div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800">
+                        Más información <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
