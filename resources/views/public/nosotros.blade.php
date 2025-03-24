@@ -96,7 +96,7 @@
 </div>
 
 <!-- Faculty Directors Section -->
-<div class="bg-gradient-to-b from-white to-gray-50 py-24 sm:py-32">
+<div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center mb-16">
             <h2 class="text-base font-semibold leading-7 text-blue-600">Dirección Académica</h2>
@@ -128,7 +128,7 @@
 </div>
 
 <!-- Engineers Section -->
-<div class="bg-blue-50 py-24 sm:py-32">
+<div class="bg-gradient-to-b from-gray-50 to-gray-100 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center mb-16">
             <h2 class="text-base font-semibold leading-7 text-blue-600">Ingenieros Investigadores</h2>
@@ -190,7 +190,7 @@
 </div>
 
 <!-- Students Section -->
-<div class="bg-gradient-to-b from-white to-gray-50 py-24 sm:py-32">
+<div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center mb-16">
             <h2 class="text-base font-semibold leading-7 text-blue-600">Estudiantes Investigadores</h2>
@@ -268,7 +268,7 @@
 </div>
 
 <!-- Achievements and Recognition Section -->
-<div class="bg-white py-24 sm:py-32">
+<div class="bg-gradient-to-b from-gray-50 to-gray-100 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center mb-16">
             <h2 class="text-base font-semibold leading-7 text-blue-600">Excelencia e Innovación</h2>
@@ -356,7 +356,7 @@
 </div>
 
 <!-- Photo Gallery Section -->
-<div class="bg-gradient-to-b from-blue-50 to-gray-50 py-24 sm:py-32">
+<div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center mb-16">
             <h2 class="text-base font-semibold leading-7 text-blue-600">Galería de Fotos</h2>
