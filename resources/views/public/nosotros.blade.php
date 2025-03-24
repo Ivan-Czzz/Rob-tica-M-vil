@@ -238,8 +238,8 @@
                     <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-full flex items-center justify-center mb-4 group-hover:scale-105 transition-transform duration-300">
                         <i class="fas fa-user text-2xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-gray-900 mb-2">Roberto Sánchez</h3>
-                    <p class="text-blue-600 text-sm mb-3 text-center">Estudiante de Doctorado en IA</p>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">Ivan Cruz</h3>
+                    <p class="text-blue-600 text-sm mb-3 text-center">Estudiante de Ingeniería en Ciencias de la Computación</p>
                     <p class="text-gray-600 text-sm text-center mb-4">Investigación en aprendizaje por refuerzo para sistemas robóticos autónomos.</p>
                     <div class="flex space-x-3">
                         <a href="#" class="text-gray-400 hover:text-blue-600 transition-colors"><i class="fab fa-github text-lg"></i></a>
